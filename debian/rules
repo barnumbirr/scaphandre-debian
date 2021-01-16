@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	cargo clean
+
+override_dh_auto_build:
+	cargo build --release
+
+override_dh_auto_install:
+	install -Dm04755 "target/release/scaphandre" "debian/scaphandre/usr/bin/scaphandre"
+	strip "debian/scaphandre/usr/bin/scaphandre"

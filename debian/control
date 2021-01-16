@@ -1,0 +1,16 @@
+Source: scaphandre
+Section: utils
+Priority: optional
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends:
+ cargo:native,
+ debhelper (>= 11),
+ rustc:native,
+Standards-Version: 4.5.0
+Homepage: https://github.com/hubblo-org/scaphandre
+
+Package: scaphandre
+Architecture: amd64
+Description: Electrical power consumption metrology agent.
+ Let scaphandre dive and bring back the metrics that will help you make
+ your systems and applications more sustainable !
