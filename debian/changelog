@@ -1,3 +1,11 @@
+scaphandre (0.3.0-1) unstable; urgency=medium
+
+  * Version 0.3.0
+  * Add `libssl-dev` build dependency
+  * Add `pkg-config` build dependency
+
+ -- Martin Simon <me@martinsimon.me>  Tue, 13 Apr 2021 00:00:00 +0000
+
 scaphandre (0.2.0-1) unstable; urgency=medium
 
   * Version 0.2.0

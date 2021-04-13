@@ -5,6 +5,8 @@ Maintainer: Martin Simon <me@martinsimon.me>
 Build-Depends:
  cargo:native,
  debhelper (>= 11),
+ libssl-dev,
+ pkg-config,
  rustc:native,
 Standards-Version: 4.5.0
 Homepage: https://github.com/hubblo-org/scaphandre
