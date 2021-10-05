@@ -1,3 +1,12 @@
+scaphandre (0.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bullseye is now stable
+  * Update debhelper
+  * Improve Debian version and package name handling in Github Action
+
+ -- Martin Simon <me@martinsimon.me>  Tue, 05 Oct 2021 00:00:00 +0000
+
 scaphandre (0.3.0-1) unstable; urgency=medium
 
   * Version 0.3.0
