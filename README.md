@@ -9,12 +9,12 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname$ ./build.sh
 ```
-By default this will build scaphandre v0.4.0 on Debian Buster.
+By default this will build scaphandre v0.5.0 on Debian Buster.
 
 If you want to customize the build at runtime, use the following:
 
 ```bash
-user@hostname$ ./build.sh -i debian:unstable-slim -v 0.3.0
+user@hostname$ ./build.sh -i debian:unstable-slim -v 0.4.1
 ```
 Don't forget to update `debian/changelog` so your package is generated with the correct version.
 
@@ -28,7 +28,7 @@ To publish a new package version to Github, follow these steps:
 ## License
 
 ```
-Copyright 2021 Martin Simon
+Copyright 2021-2023 Martin Simon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

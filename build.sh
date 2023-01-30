@@ -4,7 +4,7 @@ set -eu
 
 IMAGE="debian:bullseye-slim"
 TARGET="$(dirname "$0" | xargs realpath)"
-VERSION="v0.4.1"
+VERSION="v0.5.0"
 
 while getopts "v:i:h" opt
 do
